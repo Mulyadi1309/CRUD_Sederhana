@@ -25,13 +25,13 @@
                 <div class="sidebar-content">
                     <ul class="nav nav-secondary">
                         <li class="nav-item">
-                            <a href="">
+                            <a href="/dashboard">
                                 <i class="fas fa-home"></i>
                                 <p>Dashboard</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="">
+                            <a href="{{ route('produk.index')}}">
                                 <i class="fas fa-user"></i>
                                 <p>Produk</p>
                             </a>
